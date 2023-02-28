@@ -4,7 +4,7 @@
     --background: #000814;
     
 }
-.about-event{
+/* .about-event{
     /* background-color: #000814;
     color: #ffffff;
     display: grid;
@@ -12,7 +12,7 @@
     grid-template-areas: 'about-heading about-heading about-heading about-heading about-heading' 'about-event-para-1 about-event-para-1 about-event-para-1 shark shark' 'about-event-para-2 about-event-para-2 about-event-para-2 shark shark' ;
     padding: 8%; */
     
-}
+*/
 
 .about-event h2{
     font-size: 4rem;
