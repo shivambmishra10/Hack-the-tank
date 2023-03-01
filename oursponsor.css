@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+:root{
+    --primary:#001D3D;
+    --background:#000814;
+    --secondary:#003566;
+    --text:#FFC300;
+    --textSecondary:white;
+    --shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    --border:#ffd60a;
+  }
+  
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--background);
+  }
+
+  .oursponsor{
+    margin: 150px 0;
+    text-align: center;
+  }
+
+.oursponsor h1{
+    color: white;
+}
+
+.oursponsor h1 span{
+    color: rgb(159, 8, 219) ;
+    font-weight: bold;
+}
+
+.oursponsor h3{
+    color: white;
+    margin: 5vh 0;
+    font-weight: bold;
+}
+
+.oursponsor .logos{
+    display: grid;
+    width: 70%;
+    margin: 0 auto;
+    gap:5px;
+    grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+    color: white;
+}
+
+.oursponsor .logos div img{
+    height: 30px;
+}
+
+.oursponsor #logos:first-child{
+    padding-left:70vw;
+}
+
+.oursponsor #logos:last-child{
+    padding-right:70vw;
+}
+
+@media screen and (max-width:1024px){
+    .oursponsor .logos div img{
+        height: 25px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .oursponsor .logos{
+        width:98%;
+    }
+    .oursponsor .logos div img{
+        height: 20px;
+    }
+}
+
+@media screen and (max-width:425px){
+    .oursponsor .logos div img{
+        height: 25px;
+    }
+    .oursponsor #logos:first-child{
+        padding-left:0;
+    }
+    
+    .oursponsor #logos:last-child{
+        padding-right:0;
+    }
+}
